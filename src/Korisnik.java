@@ -11,6 +11,7 @@ abstract class Korisnik {
         this.prezime = prezime;
     }
 
+    //getter i setter
     public String getUsername(){
         return username;
     }

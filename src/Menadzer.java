@@ -1,3 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Menadzer extends Korisnik {
-    Predstava predstava;
+    private List<Predstava> predstave;
+
+    public Menadzer(String username, String password, String ime, String prezime){
+        super(username, password, ime, prezime);
+        this.predstave = new ArrayList<>();
+    }
+
+    //getter i setter
+    public List<Predstava> getPredstave(){
+        return predstave;
+    }
+
+    public void dodajPredstavu(Predstava predstava){
+        predstave.add(predstava);
+    }
 }
