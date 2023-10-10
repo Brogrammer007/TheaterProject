@@ -1,4 +1,9 @@
 public class Sediste {
-    int red;
-    int broj;
+    private int red;
+    private int broj;
+
+    public Sediste(int red, int broj){
+        this.red = red;
+        this.broj = broj;
+    }
 }
