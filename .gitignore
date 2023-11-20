@@ -30,7 +30,5 @@ bin/
 
 ### xml and idea file to git ignore ###
 
-*.xml
-*.idea
 
 
