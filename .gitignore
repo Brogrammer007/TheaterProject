@@ -29,6 +29,7 @@ bin/
 .DS_Store
 
 ### xml and idea file to git ignore ###
+*.idea
 
 
 
