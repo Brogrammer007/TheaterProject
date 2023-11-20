@@ -28,6 +28,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### idea file to gitignore ###
+.idea/
 
 
 
