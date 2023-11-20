@@ -26,10 +26,5 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
-
-### idea file to gitignore ###
+.DS_Store.idea/
 .idea/
-
-
-
