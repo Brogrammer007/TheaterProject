@@ -4,6 +4,7 @@ abstract class Korisnik {
     private String ime;
     private String prezime;
 
+
     public Korisnik(String username, String password, String ime, String prezime){
         this.username = username;
         this.password = password;
@@ -15,9 +16,32 @@ abstract class Korisnik {
     public String getUsername(){
         return username;
     }
+    public String getPassword() {
+        return password;
+    }
+
+    public String getIme() {
+        return ime;
+    }
+
+    public String getPrezime() {
+        return prezime;
+    }
 
     public void setUsername(String username){
         this.username = username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setIme(String ime) {
+        this.ime = ime;
+    }
+
+    public void setPrezime(String prezime) {
+        this.prezime = prezime;
     }
 
 

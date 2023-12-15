@@ -13,7 +13,7 @@ public class Menadzer extends Korisnik {
         return predstave;
     }
 
-    public void dodajPredstavu(Predstava predstava){
+    public void setPredstave(Predstava predstava){
         predstave.add(predstava);
     }
 }
