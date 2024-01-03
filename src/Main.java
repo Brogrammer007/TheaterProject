@@ -24,7 +24,7 @@ public class Main {
 
                     predstava1.getNaziv() + " | "+
                     predstava1.getTipPredstave()+ " | "+
-                    predstava1.getReziser()+ " \n "+
+                    predstava1.getReziser()+ " \nxvfsfsf "+
                     predstava1.getGlumci()+ " \n "+
                     predstava1.getTrajanje()+ " \n "+
                     predstava1.getProdukcija()+ " \n "+
