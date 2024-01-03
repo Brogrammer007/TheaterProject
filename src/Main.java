@@ -23,7 +23,7 @@ public class Main {
             writer.write(
 
                     predstava1.getNaziv() + " | "+
-                    predstava1.getTipPredstave()+ " \n "+
+                    predstava1.getTipPredstave()+ " \nhghghghg "+
                     predstava1.getReziser()+ " \n "+
                     predstava1.getGlumci()+ " \n "+
                     predstava1.getTrajanje()+ " \n "+
