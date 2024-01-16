@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        String filePath = "resources/write.txt";
+        String filePath = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheatarProjectApp\\TheaterProject\\resources\\write.txt";
         Predstava predstava1 = new Predstava(
                 "ProgramingWithUs",
                 TipPredstave.DRAMA,
@@ -22,36 +22,20 @@ public class Main {
             FileWriter writer = new FileWriter(filePath);
             writer.write(
 
-                    predstava1.getNaziv() + " | "+
-                    predstava1.getTipPredstave()+ " \nhghghghg "+
-                    predstava1.getReziser()+ " \n "+
-                    predstava1.getGlumci()+ " \n "+
-                    predstava1.getTrajanje()+ " \n "+
-                    predstava1.getProdukcija()+ " \n "+
-                    predstava1.getGodina()+ " \n "+
-                    predstava1.getOpis()+ " \n ");
+                    predstava1.getNaziv() + "|"+
+                    predstava1.getTipPredstave()+ "|"+
+                    predstava1.getReziser()+ "|"+
+                    predstava1.getGlumci()+ "|"+
+                    predstava1.getTrajanje()+ "|"+
+                    predstava1.getProdukcija()+ "|"+
+                    predstava1.getGodina()+ "|"+
+                    predstava1.getOpis()+ "|");
             writer.close();}
 
         catch (IOException e){
             e.printStackTrace();
         }
 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Sta ce bit sad");
 }
 }
