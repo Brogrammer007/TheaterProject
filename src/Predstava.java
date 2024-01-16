@@ -1,6 +1,8 @@
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Objects;
 
-public class Predstava {
+public class Predstava implements Serializable {
     private String naziv;
     private TipPredstave TipPredstave;
     private String reziser;
@@ -83,4 +85,5 @@ public class Predstava {
     public void setOpis(String opis) {
         this.opis = opis;
     }
+
 }

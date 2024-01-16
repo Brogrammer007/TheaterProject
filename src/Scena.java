@@ -55,5 +55,5 @@ public class Scena {
     public void setSediste(List<Sediste> sediste) {
         this.sediste = sediste;
     }
-    
+
 }
