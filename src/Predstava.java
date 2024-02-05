@@ -86,4 +86,21 @@ public class Predstava implements Serializable {
         this.opis = opis;
     }
 
+
+    public String toString() {
+        return "Predstava{" +
+                "naziv='" + naziv + '\'' +
+                ", tip=" + TipPredstave + '\''+
+                ", reziser='" + reziser + '\'' +
+                ", glumci=" + glumci +
+                ", trajanje=" + trajanje +
+                ", produkcija='" + produkcija + '\'' +
+                ", godina=" + godina +
+                ", opis='" + opis + '\'' +
+                '}';
+    }
+
 }
+
+
+

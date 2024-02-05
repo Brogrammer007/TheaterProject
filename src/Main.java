@@ -8,17 +8,18 @@ public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("Hello!");
         String filePath = "resources/write.txt";
+        String filePath2 = "resources/read.txt";
 
-        Predstava predstava1 = new Predstava("BangBros", TipPredstave.DRAMA, "Vuk", new ArrayList<String>(Arrays.asList("Vuk", "Dzoni", "Coksi")),300, "Nebitno", 2023, "Ozbiljna prica");
 
-        try {
-            FileWriter writer = new FileWriter(filePath);
-            writer.write(predstava1.getNaziv() + "\n" + predstava1.getOpis() + "\n" + predstava1.getGodina() + "\n" + predstava1.getProdukcija() + "\n" + predstava1.getTipPredstave() + "\n" + predstava1.getGlumci());
-            writer.close();
-        }
-        catch (IOException e) {
-            e.printStackTrace();
-        }
+        //Example usage:
+        Predstava predstava1 = Write.writePredstavaToFile(filePath);
+
+        Read read = new Read();
+        // Example usage:
+            Predstava predstava = Read.readPredstavaFromFile(filePath2);
+
+            System.out.println("Predstava read from file:");
+            System.out.println(predstava.getNaziv());
 
     }
 
