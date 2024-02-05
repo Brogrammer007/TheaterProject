@@ -46,5 +46,4 @@ public class Read {
         return predstava;
     }
 
-    // ... existing code ...
 }

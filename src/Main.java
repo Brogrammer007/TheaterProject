@@ -11,7 +11,7 @@ public class Main {
 
 
         Predstava predstava1 = Write.writePredstavaToFile(filePathWrite);
-        
+
 
 
         System.out.println("Sta ce bit sad");
