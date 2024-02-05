@@ -4,41 +4,19 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Write {
-
-    public static Predstava writeFileToPredstava(String filePath){
-
-
-        Predstava predstava = new Predstava("ProgramingWithUs",
-                TipPredstave.DRAMA,
-                "Dzo1312",
-                new ArrayList<String>(Arrays.asList("Coksi","Vuk","Dzo")),
-                300,
-                "TurboTransProdaksn",
-                2023,
-                "Mucenje");
-
+    String filePath;
+    public static Predstava writePredstavaToFile(String filePath) {
+        Predstava predstava = new Predstava("BangBros", TipPredstave.DRAMA, "Vuk", new ArrayList<String>(Arrays.asList("Vuk", "Dzoni", "Coksi")),300, "Nebitno", 2023, "Ozbiljna prica");
 
         try {
-
             FileWriter writer = new FileWriter(filePath);
-            writer.write(
-
-                    predstava.getNaziv() + "|"+
-                            predstava.getTipPredstave()+ "|"+
-                            predstava.getReziser()+ "|"+
-                            predstava.getGlumci()+ "|"+
-                            predstava.getTrajanje()+ "|"+
-                            predstava.getProdukcija()+ "|"+
-                            predstava.getGodina()+ "|"+
-                            predstava.getOpis()+ "|");
-            writer.close();}
-
-        catch (IOException e){
+            writer.write(predstava.getNaziv() + "\n" + predstava.getTipPredstave() + "\n" + predstava.getReziser() + "\n" + predstava.getGlumci() + "\n" + predstava.getTrajanje() + "\n" + predstava.getProdukcija() + "\n" + predstava.getGodina() + "\n" + predstava.getOpis());
+            writer.close();
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
+
         return predstava;
     }
-
-
-
 }

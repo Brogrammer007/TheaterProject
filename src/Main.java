@@ -6,11 +6,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        String filePathWrite = "TheaterProject/resources/write.txt";
-        String filePathReade = "TheaterProject/resources/read.txt";
+        String filePathWrite = "resources/write.txt";
+        String filePathReade = "resources/read.txt";
 
 
-        Predstava predstava1 = Write.writeFileToPredstava(filePathWrite);
+        Predstava predstava1 = Write.writePredstavaToFile(filePathWrite);
 
 
 
