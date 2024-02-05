@@ -94,7 +94,7 @@ public class Predstava implements Serializable {
     public String toString() {
         return "Predstava{" +
                 "naziv='" + naziv + '\'' +
-                ", tip=" + TipPredstave +
+                ", tip=" + TipPredstave + '\''+
                 ", reziser='" + reziser + '\'' +
                 ", glumci=" + glumci +
                 ", trajanje=" + trajanje +

@@ -6,36 +6,19 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+        String filePathWrite = "TheaterProject/resources/write.txt";
+        String filePathReade = "TheaterProject/resources/read.txt";
 
-        String filePath = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheatarProjectApp\\TheaterProject\\resources\\write.txt";
-        Predstava predstava1 = new Predstava(
-                "ProgramingWithUs",
-                TipPredstave.DRAMA,
-                "Dzo",
-                new ArrayList<String>(Arrays.asList("Coksi","Vuk","Dzo")),
-                300,
-                "TurboTransProdaksn",
-                2023,
-                "Mucenje");
 
-        try {
-            FileWriter writer = new FileWriter(filePath);
-            writer.write(
+        Predstava predstava1 = Write.writeFileToPredstava(filePathWrite);
 
-                    predstava1.getNaziv() + "|"+
-                    predstava1.getTipPredstave()+ "|"+
-                    predstava1.getReziser()+ "|"+
-                    predstava1.getGlumci()+ "|"+
-                    predstava1.getTrajanje()+ "|"+
-                    predstava1.getProdukcija()+ "|"+
-                    predstava1.getGodina()+ "|"+
-                    predstava1.getOpis()+ "|");
-            writer.close();}
 
-        catch (IOException e){
-            e.printStackTrace();
-        }
 
         System.out.println("Sta ce bit sad");
+
+
+        Predstava predstava2 = Read.readPredstavaFromFile(filePathReade);
+        System.out.println(predstava2.getGlumci());
 }
+
 }
