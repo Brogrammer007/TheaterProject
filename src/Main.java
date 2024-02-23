@@ -10,15 +10,22 @@ public class Main {
         String filePathReade = "resources/read.txt";
 
 
-        Predstava predstava1 = Write.writePredstavaToFile(filePathWrite);
 
-dada
+
+
+
+
+
+
+        Predstava predstavaWritter= Write.writePredstavaToFile(filePathWrite);
+
+
 
         System.out.println("Sta ce bit sad");
 
 
-        Predstava predstava2 = Read.readPredstavaFromFile(filePathReade);
-        System.out.println(predstava2.getGlumci());
+        Predstava predstavaReader = Read.readPredstavaFromFile(filePathReade);
+        System.out.println(predstavaReader.getId() + predstavaReader.getNaziv()+predstavaReader.getTipPredstave()+ predstavaReader.getReziser());
 }
 
 }

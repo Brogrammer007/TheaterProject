@@ -1,7 +1,8 @@
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
-public class Predstava implements Serializable {
+public class Predstava  {
+    private int id;
     private String naziv;
     private TipPredstave TipPredstave;
     private String reziser;
@@ -14,7 +15,8 @@ public class Predstava implements Serializable {
 
 
 
-    public Predstava(String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
+    public Predstava(int id ,String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
+        this.id = id;
         this.naziv = naziv;
         this.TipPredstave = tip;
         this.reziser = reziser;
@@ -24,6 +26,8 @@ public class Predstava implements Serializable {
         this.godina = godina;
         this.opis = opis;
     }
+
+    public int getId() {return id;}
 
     public String getNaziv() {
         return naziv;
@@ -58,6 +62,7 @@ public class Predstava implements Serializable {
     }
 
 
+    public void setId (int id) { this.id = id; }
     public void setNaziv(String naziv) {
         this.naziv = naziv;
     }
@@ -93,6 +98,7 @@ public class Predstava implements Serializable {
 
     public String toString() {
         return "Predstava{" +
+                "id='" + id + '\'' +
                 "naziv='" + naziv + '\'' +
                 ", tip=" + TipPredstave + '\''+
                 ", reziser='" + reziser + '\'' +

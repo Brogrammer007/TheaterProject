@@ -1,8 +1,1 @@
-BangBros
-DRAMA
-Vuk
-[Vuk, Dzoni, Coksi]
-300
-Nebitno
-2023
-Ozbiljna prica
+0|BangBros|DRAMA|Vuk|[Vuk, Dzoni, Coksi]|300|Nebitno|2023|Ozbiljna prica
