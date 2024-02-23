@@ -12,14 +12,16 @@ public class Main {
 
 
         //Example usage:
-        Predstava predstava1 = Write.writePredstavaToFile(filePath);
+          Predstava predstavaWrite = Write.writePredstavaToFile(filePath);
 
         Read read = new Read();
         // Example usage:
-            Predstava predstava = Read.readPredstavaFromFile(filePath2);
+            Predstava predstavaRead = Read.readPredstavaFromFile(filePath2);
 
             System.out.println("Predstava read from file:");
-            System.out.println(predstava.getNaziv());
+            System.out.println(predstavaRead.getNaziv());
+            System.out.println(predstavaRead.getId());
+            System.out.println(predstavaRead.getGlumci());
 
     }
 
