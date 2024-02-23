@@ -2,6 +2,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
 public class Predstava  {
+    private static int brojac = 0;
     private int id;
     private String naziv;
     private TipPredstave TipPredstave;
@@ -16,7 +17,7 @@ public class Predstava  {
 
 
     public Predstava(int id ,String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
-        this.id = id;
+        this.id = ++brojac;
         this.naziv = naziv;
         this.TipPredstave = tip;
         this.reziser = reziser;

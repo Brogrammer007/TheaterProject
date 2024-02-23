@@ -6,18 +6,14 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        String filePathWrite = "resources/write.txt";
-        String filePathReade = "resources/read.txt";
+        String filePathWrite = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\write.txt";
+        String filePathReade = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\read.txt";
+
+        Write.writePredstavaToFile(filePathWrite);
 
 
 
 
-
-
-
-
-
-        Predstava predstavaWritter= Write.writePredstavaToFile(filePathWrite);
 
 
 
