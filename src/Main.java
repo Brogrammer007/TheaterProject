@@ -12,7 +12,7 @@ public class Main {
         Write.writePredstavaToFile(filePathWrite);
 
 
-
+        System.out.println("Dobar dan  da li zelite novu predstavu da unesete");
 
 
 

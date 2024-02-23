@@ -11,6 +11,8 @@ import java.util.List;
 public class Read {
 
     String filePath;
+
+    ArrayList<Predstava> predstaveIzReadera = new ArrayList<>();
     public static Predstava readPredstavaFromFile(String filePath) {
 
         Predstava predstava = null;
