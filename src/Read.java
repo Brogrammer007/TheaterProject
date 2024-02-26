@@ -20,7 +20,7 @@ public class Read {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line = reader.readLine();
 
-            if (line != null) {
+            while (line != null) {
                 String[] parts = line.split("\\|");
                 if (parts.length == 9) {
                     int id = Integer.parseInt(parts[0]);
