@@ -4,33 +4,30 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Write {
+public class Write  {
     String filePath;
     public static ArrayList<Predstava> predstavaList = new ArrayList<>();
-    public static Predstava writePredstavaToFile(String filePath) {
 
+    public static void writePredstavaToFile(String filePathWrite,ArrayList<Predstava> listaPredstava) {
 
-        Predstava predstava = new Predstava(1, "BangBros", TipPredstave.DRAMA, "Vuk", new ArrayList<String>(Arrays.asList("Vuk", "Dzoni", "Coksi")),300, "Nebitno", 2023, "Ozbiljna prica");
-        Predstava predstava2 = new Predstava(1, "BangBros", TipPredstave.DRAMA, "Vuk", new ArrayList<String>(Arrays.asList("Vuk", "Dzoni", "Coksi")),300, "Nebitno", 2023, "Ozbiljna prica");
-        Predstava predstava3 = new Predstava(1, "BangBros", TipPredstave.DRAMA, "Vuk", new ArrayList<String>(Arrays.asList("Vuk", "Dzoni", "Coksi")),300, "Nebitno", 2023, "Ozbiljna prica");
-
-        predstavaList.add(predstava);
-        predstavaList.add(predstava2);
-        predstavaList.add(predstava3);
-
-
-
-
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            for (Predstava p : predstavaList) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePathWrite))){
+            for (Predstava p : listaPredstava){
                 writer.write(p.toString());
                 writer.newLine();
             }
-            System.out.println("Details written to " + filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-        return predstava;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static void writePredstavafromRead(String path, ArrayList<Predstava> listaPredstava){
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))){
+            for (Predstava p: listaPredstava){
+                writer.write(p.toString());
+                writer.newLine();}
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
