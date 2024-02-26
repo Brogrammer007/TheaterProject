@@ -6,19 +6,22 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        String filePathWrite = "resources/write.txt";
-        String filePathReade = "resources/read.txt";
+        String filePathWrite = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\write.txt";
+        String filePathReade = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\read.txt";
+
+        Write.writePredstavaToFile(filePathWrite);
 
 
-        Predstava predstava1 = Write.writePredstavaToFile(filePathWrite);
+        System.out.println("Dobar dan  da li zelite novu predstavu da unesete");
+
 
 
 
         System.out.println("Sta ce bit sad");
 
 
-        Predstava predstava2 = Read.readPredstavaFromFile(filePathReade);
-        System.out.println(predstava2.getGlumci());
+        Predstava predstavaReader = Read.readPredstavaFromFile(filePathReade);
+        System.out.println(predstavaReader.getId() + predstavaReader.getNaziv()+predstavaReader.getTipPredstave()+ predstavaReader.getReziser());
 }
 
 }

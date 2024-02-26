@@ -1,8 +1,2 @@
-BangBros
-DRAMA
-Vuk
-[Vuk, Dzoni, Coksi]
-300
-Nebitno
-2023
-Ozbiljna prica
+Predstava{id='1'naziv='BangBros', tip=DRAMA', reziser='Vuk', glumci=[Vuk, Dzoni, Coksi], trajanje=300, produkcija='Nebitno', godina=2023, opis='Ozbiljna prica'}
+Predstava{id='2'naziv='BangBros', tip=DRAMA', reziser='Vuk', glumci=[Vuk, Dzoni, Coksi], trajanje=300, produkcija='Nebitno', godina=2023, opis='Ozbiljna prica'}

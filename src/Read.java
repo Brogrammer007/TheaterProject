@@ -11,6 +11,8 @@ import java.util.List;
 public class Read {
 
     String filePath;
+
+    ArrayList<Predstava> predstaveIzReadera = new ArrayList<>();
     public static Predstava readPredstavaFromFile(String filePath) {
 
         Predstava predstava = null;
@@ -18,24 +20,25 @@ public class Read {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line = reader.readLine();
 
-            if (line != null) {
+            while (line != null) {
                 String[] parts = line.split("\\|");
-                if (parts.length == 8) {
-                    String naziv = parts[0];
-                    TipPredstave tip = TipPredstave.valueOf(parts[1]);
-                    String reziser = parts[2];
-                    String[] glumciArray = parts[3].substring(1, parts[3].length() - 1).split(", ");
+                if (parts.length == 9) {
+                    int id = Integer.parseInt(parts[0]);
+                    String naziv = parts[1];
+                    TipPredstave tip = TipPredstave.valueOf(parts[2]);
+                    String reziser = parts[3];
+                    String[] glumciArray = parts[4].substring(1, parts[4].length() - 1).split(", ");
                     ArrayList<String> glumci = new ArrayList<>();
                     for (String glumac : glumciArray) {
                         glumci.add(glumac);
                     }
-                    int trajanje = Integer.parseInt(parts[4]);
-                    String produkcija = parts[5];
-                    int godina = Integer.parseInt(parts[6]);
-                    String opis = parts[7];
+                    int trajanje = Integer.parseInt(parts[5]);
+                    String produkcija = parts[6];
+                    int godina = Integer.parseInt(parts[7]);
+                    String opis = parts[8];
 
                     // Create a Predstava object using the read data
-                    predstava = new Predstava(naziv, tip, reziser, glumci, trajanje, produkcija, godina, opis);
+                    predstava = new Predstava(id,naziv, tip, reziser, glumci, trajanje, produkcija, godina, opis);
                 }
             }
 
