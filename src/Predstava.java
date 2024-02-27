@@ -98,17 +98,14 @@ public class Predstava  {
 
 
     public String toString() {
-        return "Predstava{" +
-                "id='" + id + '\'' +
-                "naziv='" + naziv + '\'' +
-                ", tip=" + TipPredstave + '\''+
-                ", reziser='" + reziser + '\'' +
-                ", glumci=" + glumci +
-                ", trajanje=" + trajanje +
-                ", produkcija='" + produkcija + '\'' +
-                ", godina=" + godina +
-                ", opis='" + opis + '\'' +
-                '}';
+        return  id + "|" +
+                naziv + '|' +
+                TipPredstave + '|'+
+                reziser + '|' +
+                glumci + '|' +
+                trajanje + '|' +
+                produkcija + '|' +
+                godina + '|' +
+                opis + '|' ;
     }
-
 }

@@ -20,14 +20,5 @@ public class Write  {
             throw new RuntimeException(e);
         }
     }
-    public static void writePredstavafromRead(String path, ArrayList<Predstava> listaPredstava){
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))){
-            for (Predstava p: listaPredstava){
-                writer.write(p.toString());
-                writer.newLine();}
 
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 }
