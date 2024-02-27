@@ -7,19 +7,48 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String filePathWrite = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\write.txt";
-        String filePathReade = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\read.txt";
+        Scanner scn = new Scanner();
 
-        Write.writePredstavaToFile(filePathWrite,Read.readPredstavaFromFile(filePathReade));
+        String filePathPredstave = "C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\resources\\predstave.txt";
+
+        ArrayList<Predstava> predstave = FileHandler.readPredstavaFromFile(filePathPredstave);
+
+        for(Predstava p : predstave) {
+            System.out.println(p);
+        }
+
+        // unesete predstavu sa tastature
+        // System.out.print("Unesite naziv predstave: ")
+        // String noviNazivPredstave = scn.nextLine();
+        // .
+        // .
+        // .
+
+        // System.out.print("Unesite glumce:")
+        // String unosi = "1";
+        // ArrayList<String> noviGlumci = new ArrayList<String();
+        // while(unosi == "1") {
+        //     String noviGlumac = scn.nextLine();
+        //     noviGlumci.add(noviGlumac);
+        //     System.out.print("Ako zelite da prekinete unesite broj razlicit od 1:")
+        //     unosi = scn.nextLine();
+        // }
 
 
-        System.out.println("Dobar dan  da li zelite novu predstavu da unesete");
+        ArrayList<String> glumci = new ArrayList<String>();
+        glumci.add("Nikola");
+        Predstava novaPredstava = new Predstava(predstave.size() + 1, "Nova predstava", TipPredstave.DRAMA, "Vuk", glumci, 120, "Coxi", 1997, "Nova predstava za da se pogleda");
+        predstave.add(novaPredstava);
 
 
+        // sort po nazivu predstave
+        // sort po id -- na kraju dana
 
-        System.out.println("Sta ce bit sad");
+        for(Predstava p : predstave) {
+            System.out.println(p);
+        }
 
-
-}
+        FileHandler.writePredstavaToFile(filePathPredstave, predstave);
+    }
 
 }

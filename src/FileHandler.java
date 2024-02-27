@@ -1,20 +1,26 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
-public class Read {
+public class FileHandler  {
+    public static void writePredstavaToFile(String filePathWrite ,ArrayList<Predstava> listaPredstava) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePathWrite))){
+            for (Predstava p : listaPredstava){
+                writer.write(p.toString());
+                writer.newLine();
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     public static ArrayList<Predstava> readPredstavaFromFile(String filePath) {
         ArrayList<Predstava> predstaveIzReadera = new ArrayList<>();
         Predstava predstava;
         String line;
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 if (parts.length == 9) {
@@ -37,13 +43,9 @@ public class Read {
                     predstaveIzReadera.add(predstava);
                 }
             }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
         return predstaveIzReadera;
     }
 }
-
-

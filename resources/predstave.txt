@@ -1,0 +1,3 @@
+1|Prva|DRAMA|Dzo|[Coksi, Vukkkkkkkkk1, Dzo]|300|TurboTransProdaksn|2023|Mucenje
+2|Druga|DRAMA|Dzo|[Coksi, Vukkkkkkkkk2, Dzo]|300|TurboTransProdaksn|2023|Mucenje
+3|Treca|DRAMA|Dzo|[Coksi, Vukkkkkkkkk3, Dzo]|300|TurboTransProdaksn|2023|Mucenje
