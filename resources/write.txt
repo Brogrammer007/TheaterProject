@@ -1,3 +1,0 @@
-Predstava{id='3'naziv='Prva', tip=DRAMA', reziser='Dzo', glumci=[Coksi, Vukkkkkkkkk1, Dzo], trajanje=300, produkcija='TurboTransProdaksn', godina=2023, opis='Mucenje'}
-Predstava{id='4'naziv='Druga', tip=DRAMA', reziser='Dzo', glumci=[Coksi, Vukkkkkkkkk2, Dzo], trajanje=300, produkcija='TurboTransProdaksn', godina=2023, opis='Mucenje'}
-Predstava{id='5'naziv='Treca', tip=DRAMA', reziser='Dzo', glumci=[Coksi, Vukkkkkkkkk3, Dzo], trajanje=300, produkcija='TurboTransProdaksn', godina=2023, opis='Mucenje'}

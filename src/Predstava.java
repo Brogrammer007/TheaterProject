@@ -1,12 +1,7 @@
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
-<<<<<<< Updated upstream
 public class Predstava  {
-    private static int brojac = 0;
-=======
-public class Predstava {
->>>>>>> Stashed changes
     private int id;
     private String naziv;
     private TipPredstave TipPredstave;
@@ -17,11 +12,8 @@ public class Predstava {
     private int godina;
     private String opis;
 
-
-
-
     public Predstava(int id ,String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
-        this.id = ++brojac;
+        this.id = id;
         this.naziv = naziv;
         this.TipPredstave = tip;
         this.reziser = reziser;
@@ -102,17 +94,15 @@ public class Predstava {
 
 
     public String toString() {
-        return "Predstava{" +
-                "id='" + id + '\'' +
-                "naziv='" + naziv + '\'' +
-                ", tip=" + TipPredstave + '\''+
-                ", reziser='" + reziser + '\'' +
-                ", glumci=" + glumci +
-                ", trajanje=" + trajanje +
-                ", produkcija='" + produkcija + '\'' +
-                ", godina=" + godina +
-                ", opis='" + opis + '\'' +
-                '}';
+        return  id + "|" +
+                naziv + "|" +
+                TipPredstave + "|"+
+                reziser + "|" +
+                glumci + "|" +
+                trajanje + "|" +
+                produkcija + "|" +
+                godina + "|" +
+                opis;
     }
 
 }

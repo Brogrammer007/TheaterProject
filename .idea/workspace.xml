@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0711c0ed-c3f9-4597-a982-7c80ae5ce3c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/resources/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/read.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/C__Users_mmiki_OneDrive_Radna površina_TheaterProject_src.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C__Users_mmiki_OneDrive_Radna površina_TheaterProject_src.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheaterProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheaterProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/predstave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/predstave.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biletar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biletar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Izvodjenje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Izvodjenje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Karta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Karta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Korisnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korisnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/predstave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/write.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menadzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menadzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Predstava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predstava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sediste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sediste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TipPredstave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipPredstave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.java" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Write.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +41,8 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+    &quot;associatedIndex&quot;: 7
+    }</component>
   <component name="ProjectId" id="2YRojq0ETGGOn3936ntukYjBukj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -75,7 +56,7 @@
     "Application.TheaterProject.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "coxi",
+    "git-widget-placeholder": "MataHelper",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mmiki/OneDrive/Radna površina/TheaterProject/src"
   }
@@ -101,7 +82,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-20.0.2-azul-20.0.2-249ae16d76d6-8f6f4fc2" />
       </set>
     </attachedChunks>
   </component>
@@ -130,5 +111,15 @@
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
