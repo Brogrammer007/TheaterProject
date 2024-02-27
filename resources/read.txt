@@ -1,3 +1,13 @@
+<<<<<<< Updated upstream:resources/read.txt
 1|Prva|DRAMA|Dzo|[Coksi, Vukkkkkkkkk1, Dzo]|300|TurboTransProdaksn|2023|Mucenje|
 2|Druga|DRAMA|Dzo|[Coksi, Vukkkkkkkkk2, Dzo]|300|TurboTransProdaksn|2023|Mucenje|
 3|Treca|DRAMA|Dzo|[Coksi, Vukkkkkkkkk3, Dzo]|300|TurboTransProdaksn|2023|Mucenje|
+=======
+1|Prva|DRAMA|Dzo|[Coksi, Vukkkkkkkkk1, Dzo]|300|TurboTransProdaksn|2023|Mucenje
+2|Druga|DRAMA|Dzo|[Coksi, Vukkkkkkkkk2, Dzo]|300|TurboTransProdaksn|2023|Mucenje
+3|Treca|DRAMA|Dzo|[Coksi, Vukkkkkkkkk3, Dzo]|300|TurboTransProdaksn|2023|Mucenje
+4|Nova predstava|DRAMA|Vuk|[Nikola]|120|Coxi|1997|Nova predstava za da se pogleda
+5|Nova predstava|DRAMA|Vuk|[Nikola]|120|Coxi|1997|Nova predstava za da se pogleda
+6|Pokusaj testa|DRAMA|Matija Todorovic|[test, test, test3]|130|clint|2024|test
+7|TestNaziv|DRAMA|Mata Majstor|[Vuk, Dzoni, Coksi, Test1234]|160|BangBros|2024|Testiranje novih predstava
+>>>>>>> Stashed changes:resources/predstave.txt

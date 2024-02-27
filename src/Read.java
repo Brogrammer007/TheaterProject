@@ -6,9 +6,27 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+<<<<<<< Updated upstream:src/Read.java
 import java.util.List;
 
 public class Read {
+=======
+import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.FileReader;
+public class FileHandler  {
+    public static void writePredstavaToFile(String filePathWrite ,ArrayList<Predstava> listaPredstava) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePathWrite))){
+            for (Predstava p : listaPredstava){
+                writer.write(p.toString());
+                writer.newLine();
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+>>>>>>> Stashed changes:src/FileHandler.java
     public static ArrayList<Predstava> readPredstavaFromFile(String filePath) {
         ArrayList<Predstava> predstaveIzReadera = new ArrayList<>();
         Predstava predstava;

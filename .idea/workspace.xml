@@ -5,9 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0711c0ed-c3f9-4597-a982-7c80ae5ce3c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/resources/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/read.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/C__Users_mmiki_OneDrive_Radna površina_TheaterProject_src.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C__Users_mmiki_OneDrive_Radna površina_TheaterProject_src.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheaterProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheaterProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/predstave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/predstave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Biletar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biletar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Izvodjenje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Izvodjenje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Karta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Karta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Korisnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korisnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menadzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menadzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Predstava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predstava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sediste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sediste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TipPredstave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipPredstave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +68,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\src.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TheaterProject.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Dzo&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mmiki/OneDrive/Radna površina/TheaterProject/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\src.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TheaterProject.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "coxi",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mmiki/OneDrive/Radna površina/TheaterProject/src"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mmiki\OneDrive\Radna površina\TheaterProject" />
@@ -78,7 +101,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-20.0.2-azul-20.0.2-249ae16d76d6-8f6f4fc2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>

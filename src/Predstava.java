@@ -1,8 +1,12 @@
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
+<<<<<<< Updated upstream
 public class Predstava  {
     private static int brojac = 0;
+=======
+public class Predstava {
+>>>>>>> Stashed changes
     private int id;
     private String naziv;
     private TipPredstave TipPredstave;
