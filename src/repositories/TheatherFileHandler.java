@@ -1,20 +1,43 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+package repositories;
 
-public class Read {
-    public static ArrayList<Predstava> readPredstavaFromFile(String filePath) {
+import models.Predstava;
+import models.TipPredstave;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class TheatherFileHandler  {
+
+    private String predstavePath;
+
+    public TheatherFileHandler(String predstavePath){
+        this.predstavePath = predstavePath;
+
+    }
+
+    public void writePredstavaToFile(ArrayList<Predstava> listaPredstava) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(this.predstavePath))){
+            for (Object o : listaPredstava){
+                writer.write(o.toString());
+                writer.newLine();
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+    public ArrayList<Predstava> readPredstavaFromFile() {
+        String filePath = this.predstavePath;
         ArrayList<Predstava> predstaveIzReadera = new ArrayList<>();
         Predstava predstava;
         String line;
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 if (parts.length == 9) {
@@ -32,20 +55,14 @@ public class Read {
                     int godina = Integer.parseInt(parts[7]);
                     String opis = parts[8];
 
-                    // Create a Predstava object using the read data
+                    // Create a models.Predstava object using the read data
                     predstava = new Predstava(id, naziv, tip, reziser, glumci, trajanje, produkcija, godina, opis);
                     predstaveIzReadera.add(predstava);
                 }
-                else {
-                    System.out.println("pogresno uneta predstava!");
-                }
             }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
         return predstaveIzReadera;
     }
 }
-

@@ -1,3 +1,7 @@
+package models;
+
+import models.Korisnik;
+
 import java.util.ArrayList;
 import java.util.List;
 public class Menadzer extends Korisnik {
