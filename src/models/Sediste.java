@@ -1,3 +1,5 @@
+package models;
+
 public class Sediste {
     private int red;
     private int broj;

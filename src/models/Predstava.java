@@ -1,3 +1,5 @@
+package models;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -12,7 +14,11 @@ public class Predstava  {
     private int godina;
     private String opis;
 
+<<<<<<< Updated upstream:src/Predstava.java
     public Predstava(int id ,String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
+=======
+    public Predstava(int id , String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
+>>>>>>> Stashed changes:src/models/Predstava.java
         this.id = id;
         this.naziv = naziv;
         this.TipPredstave = tip;
@@ -24,6 +30,33 @@ public class Predstava  {
         this.opis = opis;
     }
 
+<<<<<<< Updated upstream:src/Predstava.java
+=======
+    // Predstava input
+    public Predstava( String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
+        this.naziv = naziv;
+        this.TipPredstave = tip;
+        this.reziser = reziser;
+        this.glumci = glumci;
+        this.trajanje = trajanje;
+        this.produkcija = produkcija;
+        this.godina = godina;
+        this.opis = opis;
+    }
+
+    public Predstava(int id, Predstava predstavaInput) {
+        this.id = id;
+        this.naziv = predstavaInput.naziv;
+        this.TipPredstave = predstavaInput.TipPredstave;
+        this.reziser = predstavaInput.reziser;
+        this.glumci = predstavaInput.glumci;
+        this.trajanje = predstavaInput.trajanje;
+        this.produkcija = predstavaInput.produkcija;
+        this.godina = predstavaInput.godina;
+        this.opis = predstavaInput.opis;
+    }
+
+>>>>>>> Stashed changes:src/models/Predstava.java
     public int getId() {return id;}
 
     public String getNaziv() {

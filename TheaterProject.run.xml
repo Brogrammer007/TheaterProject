@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TheaterProject" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="20" />
+    <option name="MAIN_CLASS_NAME" value="Main" />
+    <module name="TheaterProject" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="0711c0ed-c3f9-4597-a982-7c80ae5ce3c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/predstave.txt" afterDir="false" />
@@ -13,6 +14,9 @@
       <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Write.java" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="46b339b9-469f-4ed1-92c7-e243863ca5e5" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,32 +29,28 @@
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/Dzo" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Dzo" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< Updated upstream
     &quot;associatedIndex&quot;: 7
     }</component>
   <component name="ProjectId" id="2YRojq0ETGGOn3936ntukYjBukj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2dNAk26ExRgts35qA3Rx3PlV96P" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< Updated upstream
     "Application.C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\src.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TheaterProject.executor": "Run",
@@ -79,24 +79,42 @@
       </method>
     </configuration>
   </component>
+=======
+    "Application.TheaterProject.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/matij/Documents/GitHub/TheaterProject/lib/gson-2.10.1.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+>>>>>>> Stashed changes
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-20.0.2-azul-20.0.2-249ae16d76d6-8f6f4fc2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0711c0ed-c3f9-4597-a982-7c80ae5ce3c0" name="Changes" comment="" />
-      <created>1700497892581</created>
+      <changelist id="46b339b9-469f-4ed1-92c7-e243863ca5e5" name="Changes" comment="" />
+      <created>1709838304746</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700497892581</updated>
+      <updated>1709838304746</updated>
     </task>
     <servers />
   </component>
+<<<<<<< Updated upstream
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -122,4 +140,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>

@@ -1,0 +1,115 @@
+{
+  "predstave": [
+    {
+      "id:": 1,
+      "naziv:": "Mata",
+      "tip:": "DRAMA",
+      "reziser:": "Test Test",
+      "glumci:": [
+        "Mata",
+        "Vuk",
+        "Dzoni"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "BangBros",
+      "godina": 2024,
+      "opis:": "nzm"
+    },
+    {
+      "id:": 2,
+      "naziv:": "2Mata",
+      "tip:": "DRAMA",
+      "reziser:": "Test Test",
+      "glumci:": [
+        "Mata",
+        "Vuk",
+        "Dzoni"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "BangBros",
+      "godina": 2024,
+      "opis:": "nzm"
+    },
+    {
+      "id:": 3,
+      "naziv:": "3Mata",
+      "tip:": "DRAMA",
+      "reziser:": "Test Test",
+      "glumci:": [
+        "Mata",
+        "Vuk",
+        "Dzoni"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "BangBros",
+      "godina": 2024,
+      "opis:": "nzm"
+    },
+    {
+      "id:": 4,
+      "naziv:": "4Mata",
+      "tip:": "DRAMA",
+      "reziser:": "Test Test",
+      "glumci:": [
+        "Mata",
+        "Vuk",
+        "Dzoni"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "BangBros",
+      "godina": 2024,
+      "opis:": "nzm"
+    },
+    {
+      "id:": 5,
+      "naziv:": "5Mata",
+      "tip:": "DRAMA",
+      "reziser:": "Test Test",
+      "glumci:": [
+        "Mata",
+        "Vuk",
+        "Dzoni"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "BangBros",
+      "godina": 2024,
+      "opis:": "nzm"
+    },
+    {
+      "id:": 6,
+      "naziv:": "Test",
+      "tip:": "DRAMA",
+      "reziser:": "Mata",
+      "glumci:": [
+        "1",
+        "2",
+        "3"
+      ],
+      "trajanje:": 20,
+      "produkcija:": "nsn",
+      "godina": 203,
+      "opis:": "nema"
+    },
+    {
+      "id:": 7,
+      "naziv:": "Poslednjitest",
+      "tip:": "DRAMA",
+      "reziser:": "Mata Tester",
+      "glumci:": [
+        "Mimi",
+        "Mata"
+      ],
+      "trajanje:": 120,
+      "produkcija:": "Tst",
+      "godina": 2023,
+      "opis:": "nema"
+    }
+  ],
+  "korisnici": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "dozvola": 3
+    }
+  ]
+}

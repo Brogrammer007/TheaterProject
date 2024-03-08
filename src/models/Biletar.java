@@ -1,6 +1,8 @@
+package models;
+
 import java.util.ArrayList;
 import java.util.List;
-public class Biletar extends Korisnik{
+public class Biletar extends Korisnik {
     private List<Karta> prodateKarte;
 
     public Biletar(String username, String password, String ime, String prezime){
