@@ -1,3 +1,5 @@
+package models;
+
 abstract class Korisnik {
     private String username;
     private String password;

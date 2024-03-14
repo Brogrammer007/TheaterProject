@@ -1,3 +1,7 @@
+package models;
+
+import models.Izvodjenje;
+
 public class Karta {
     String serijskiBroj;
     double cena;
