@@ -14,11 +14,7 @@ public class Predstava  {
     private int godina;
     private String opis;
 
-<<<<<<< Updated upstream:src/Predstava.java
-    public Predstava(int id ,String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
-=======
     public Predstava(int id , String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
->>>>>>> Stashed changes:src/models/Predstava.java
         this.id = id;
         this.naziv = naziv;
         this.TipPredstave = tip;
@@ -30,8 +26,6 @@ public class Predstava  {
         this.opis = opis;
     }
 
-<<<<<<< Updated upstream:src/Predstava.java
-=======
     // Predstava input
     public Predstava( String naziv, TipPredstave tip, String reziser, ArrayList<String> glumci, int trajanje, String produkcija, int godina, String opis){
         this.naziv = naziv;
@@ -56,7 +50,6 @@ public class Predstava  {
         this.opis = predstavaInput.opis;
     }
 
->>>>>>> Stashed changes:src/models/Predstava.java
     public int getId() {return id;}
 
     public String getNaziv() {

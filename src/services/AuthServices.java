@@ -12,7 +12,7 @@ public class AuthServices {
 
     public void checkLogin(Users korisnik) {
         int d = userRepository.checkLoginFromJson(korisnik);
-        if (d == -1) {
+        if (d < 1) {
             System.out.println("Netacno korisnicko ime ili lozinka");
             korisnik = null;
         } else {

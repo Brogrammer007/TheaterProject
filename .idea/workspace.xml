@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="0711c0ed-c3f9-4597-a982-7c80ae5ce3c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/predstave.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/write.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Predstava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predstava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Write.java" beforeDir="false" />
-    </list>
-=======
     <list default="true" id="46b339b9-469f-4ed1-92c7-e243863ca5e5" name="Changes" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,53 +21,16 @@
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
-<<<<<<< Updated upstream
-    &quot;associatedIndex&quot;: 7
-    }</component>
-  <component name="ProjectId" id="2YRojq0ETGGOn3936ntukYjBukj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-=======
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2dNAk26ExRgts35qA3Rx3PlV96P" />
->>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-<<<<<<< Updated upstream
-    "Application.C:\\Users\\mmiki\\OneDrive\\Radna površina\\TheaterProject\\src.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TheaterProject.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "MataHelper",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mmiki/OneDrive/Radna površina/TheaterProject/src"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mmiki\OneDrive\Radna površina\TheaterProject" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
-=======
     "Application.TheaterProject.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
@@ -87,6 +38,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/matij/Documents/GitHub/TheaterProject/lib/gson-2.10.1.jar",
     "project.structure.last.edited": "Libraries",
@@ -95,7 +47,6 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
->>>>>>> Stashed changes
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,32 +65,4 @@
     </task>
     <servers />
   </component>
-<<<<<<< Updated upstream
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NumberFormatException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-=======
->>>>>>> Stashed changes
 </project>
