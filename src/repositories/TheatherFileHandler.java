@@ -1,5 +1,6 @@
 package repositories;
 
+
 import com.google.gson.JsonArray;
 import models.Predstava;
 import models.TipPredstave;
